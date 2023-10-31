@@ -1,0 +1,154 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-gap: 5px;
+  padding: 20px;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.header {
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  width: 100px;
+  margin-right: 10px;
+  margin: auto;
+}
+
+.title {
+  font-size: 50px;
+  margin: 0;
+  text-align: center;
+  color: #652f2f;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.user-info {
+  border-style: groove;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.user-avatar img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.usuario {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  
+}
+
+.usuario label {
+  display: grid;
+  margin-bottom: 5px;
+}
+
+.usuario button.editar-foto {
+  background-color: #652f2f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.botones-acciones {
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+.botones-acciones:hover {
+  color: white;
+  background-color: #eed4d4;
+}
+
+.botones-acciones button {
+  background-color: #652f2f;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.qr-images img {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 10px;
+}
+
+.qr-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qr-images img {
+  max-width: 100%;
+  height: auto;
+  margin: 5px 0;
+}
+
+footer {
+  background-color: #ffd0d0;
+  border-radius: 10px;
+  color: rgb(40, 38, 38);
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.enlace-sin-subrayado{
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: 80px;
+
+}
+
+.botones-acciones button {
+  margin-right: 50%; 
+}
+
+.username{
+  color: black;
+}
+
+
+@media screen and (max-width: 500px) {
+  .container {
+    background-color: #ff4242; 
+  }
+}
